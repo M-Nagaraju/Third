@@ -45,4 +45,16 @@
 		</dependency> -->
 
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Releases</name>
+			<url>http://35.74.249.137:8081/repository/maven-releases</url>
+		</repository>
+		<repository>
+			<id>nexus</id>
+			<name>Snapshot</name>
+			<url>http://35.74.249.137:8081/repository/maven-snapshots</url>
+		</repository>
+		</distributionManagement>
 </project>
